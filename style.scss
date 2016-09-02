@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Monospace;
+}
+.container-header, footer {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+.container-content {
+  font-size: 16px;
+  width: 50%;
+  margin: auto;
+} 
+.thin-grey-border {
+    border-color: grey;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+img {
+  width: 80%;
+}
+ul {
+  padding: 10px;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: grey;
+  text-decoration:none
+}
+a:hover {
+  color: orange;
+}
